@@ -10,7 +10,7 @@ function App() {
           <div class = 'Title'>
             <h1>Hi! I'm Johnson.</h1>
           </div>
-          <div class='fade-in-section is-visible'>
+          <div className='fade-in-section is-visible'>
             <div class='intro-desc'>
               I'm a software engineer based in Campbell, CA, who loves crafting frontends, 
               exploring machine learning, enhancing the way people interact with technology, 
@@ -20,13 +20,15 @@ function App() {
         </div>
         <div id = 'about'>
           <div class='fade-in-section is-visible'>
-            <div class = 'section-header'></div>
+            <div class = 'section-header'>
+              <span class='section-title'>About Me</span>
+            </div>
             <div class = 'about-content'>
               <p>
                 Hi! My name is Cheng Han, but I go by Johnson! I am currently undertaking a 
-                Bachelor's of Sceince in Computer Science at the <b>University of California, Santa Barbara</b>
-                and will be completing the degree in June 2024. Current I am also taking an internship at <b> YSTEM and Chess</b>
-                while performing as an Undergraduate Learning Assistant at UCSB.
+                Bachelor's of Sceince in Computer Science at the <b>University of California, Santa Barbara</b> and 
+                will be completing the degree in June 2024. Current I am also taking an internship at <b> YSTEM and Chess</b> while 
+                performing as an Undergraduate Learning Assistant at UCSB.
               </p>
               I have been working with these technologies!
               <ul class = 'tech-stack'>
@@ -55,13 +57,16 @@ function App() {
         </div>
         <div id = 'experience'>
           <div class='fade-in-section is-visible'>
-            <div class = 'section-header'></div>
-            
+            <div class = 'section-header'>
+              <span class='section-title'>Experience</span>
+            </div>
           </div>
         </div>
         <div id = 'projects'>
           <div class='fade-in-section is-visible'>
-
+            <div class = 'section-header'>
+              <span class='section-title'>Software Creations</span>
+            </div>
           </div>
         </div>
         <div class = 'fade-in-section'>
