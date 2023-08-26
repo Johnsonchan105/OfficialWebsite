@@ -10,7 +10,7 @@ function App() {
           <div class = 'Title'>
             <h1>Hi! I'm Johnson.</h1>
           </div>
-          <div className='fade-in-section is-visible'>
+          <div className={'fade-in-section is-visible'}>
             <div class='intro-desc'>
               I'm a software engineer based in Campbell, CA, who loves crafting frontends, 
               exploring machine learning, enhancing the way people interact with technology, 
@@ -19,7 +19,7 @@ function App() {
           </div>
         </div>
         <div id = 'about'>
-          <div class='fade-in-section is-visible'>
+          <div className={'fade-in-section is-visible'}>
             <div class = 'section-header'>
               <span class='section-title'>About Me</span>
             </div>
@@ -56,20 +56,20 @@ function App() {
           </div>
         </div>
         <div id = 'experience'>
-          <div class='fade-in-section is-visible'>
+          <div className={'fade-in-section is-visible'}>
             <div class = 'section-header'>
               <span class='section-title'>Experience</span>
             </div>
           </div>
         </div>
         <div id = 'projects'>
-          <div class='fade-in-section is-visible'>
+          <div className={'fade-in-section is-visible'}>
             <div class = 'section-header'>
               <span class='section-title'>Software Creations</span>
             </div>
           </div>
         </div>
-        <div class = 'fade-in-section'>
+        <div className={'fade-in-section'}>
           <div id='footer'>
             <div class='credits'>
                 <div>Designed in Figma and Built by Yours Truly.</div>
