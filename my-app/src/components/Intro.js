@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import '../styles/Intro.css'
-import FadeInSection from './FadeInSection.js'
+import '../styles/Intro.css';
+import FadeInSection from './FadeInSection.js';
 
 class Intro extends React.Component {
     constructor(){
@@ -10,7 +10,7 @@ class Intro extends React.Component {
             expanded: true,
             activeKey: '1'
         }
-        this.handleSelect = this.handleSelect.bind(this)
+        this.handleSelect = this.handleSelect.bind(this);
     }
 
     handleSelect(eventKey){
