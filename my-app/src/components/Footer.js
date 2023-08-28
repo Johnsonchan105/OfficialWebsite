@@ -17,6 +17,18 @@ class Footer extends React.Component {
             activeKey: eventKey
         });
     }
+    render() {
+        return (
+            <FadeInSection>
+                <div id='footer'>
+                    <div id = 'credits'>
+                        <div> Built and Designed by Yours Truly</div>
+                        <div>All Rights Reserved. ©</div>
+                    </div>
+                </div>
+            </FadeInSection>
+        );
+    }
 }
 
 export default Footer;

@@ -12,6 +12,7 @@ function App() {
       <div id='content'>
         <Intro></Intro>
         <About></About>
+        <Footer></Footer>
       </div>
     </div>
   );
