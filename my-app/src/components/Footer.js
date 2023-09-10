@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/Footer.css'
+import '../styles/Footer.css';
 import FadeInSection from "./FadeInSection";
 
 class Footer extends React.Component {
@@ -21,7 +21,7 @@ class Footer extends React.Component {
         return (
             <FadeInSection>
                 <div id='footer'>
-                    <div id = 'credits'>
+                    <div className = 'credits'>
                         <div> Built and Designed by Yours Truly</div>
                         <div>All Rights Reserved. ©</div>
                     </div>

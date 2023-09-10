@@ -42,7 +42,8 @@ class About extends React.Component {
             'HTML & CSS',
             'Node.js',
             'React.js',
-            'Angular.js'
+            'Angular.js',
+            'Figma'
         ];
 
         const tech_items = tech_stack.map(stack => <li>{stack}</li>);
